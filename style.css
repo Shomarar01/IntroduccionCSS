@@ -1,0 +1,62 @@
+*{
+  margin: 10px;
+
+}
+
+.prueba{
+    color: red;
+    border: 2px dashed rgb(201, 201, 14);
+    width: 20%;
+    
+} 
+
+em{
+  background-color: plum;
+}
+
+.elementosBloque{
+    background-color: pink;
+}
+
+
+button {
+    background-color: rgb(112, 90, 111); /* Color inicial del botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;/*Sirve para indicar el cambio del cursor flecha a una manita cuando pasamos el cursor por el elemento */
+  }
+  
+  /*https://www.w3schools.com/css/css_grid.asp 
+  https://www.w3schools.com/csS/css_padding.asp
+  */
+  button:hover {
+    background-color: palevioletred; /* Color del botón cuando el ratón pasa por encima */
+  }
+
+  h1{
+    font-size:30pt ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+
+  h2{
+    text-align:center;
+  }
+
+  .container{
+    width: 200px;
+    height: 150px;
+    background-color: plum;
+    padding: 30px;
+    margin: 40px;
+    border:2px dotted;
+  }
+
+  .ejemplo-box-sizing{
+    width: 200px;
+    padding: 10px;
+    border: 5px solid;
+    background-color: darkmagenta;
+    box-sizing: border-box;
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>!Hola mundo!</h1>
+    <h2>Hola, soy un subtítulo </h2>
+    <p class="prueba">Probando estilos css</p><hr>
+
+    <h3>Display: inline - Elementos en Línea </h3>
+    <a href="#">Este es un enlace en línea</a>
+    <span>y este es un texto dentro de un span. Elementos como span, a (enlaces), y em (énfasis) son, por defecto, elementos en línea. Esto significa que ocupan solo el espacio que necesitan para su contenido, y puedes tener muchos de ellos en la misma línea.</span><br>
+
+    <em><br>Si aplicas un color de fondo a estos elementos, notarás que solo se colorea la parte donde está el texto, no toda la línea.<b>Los elementos inline no respetan propiedades como width o height; solo se ajustan al tamaño de su contenido.</b> </em><hr>
+
+    <h3>Display: block - Elementos en Bloque</h3>
+    <div class="elementosBloque">Este es un elemento de bloque y ocupa toda la línea.Los elementos con display: block son como esas cajas. Ocupan todo el ancho disponible y comienzan en una nueva línea.
+    <br></div>
+    <div>Elementos como <b>div, h1, p, y ul</b> son, por defecto, elementos de bloque. Esto significa que cada vez que los usas, empiezan en una nueva línea y ocupan todo el ancho disponible de su contenedor.Puedes ajustar su altura y ancho, agregar márgenes y rellenos, y controlar completamente su disposición en la página. </div><hr>
+
+    <h3>Display:inline-block - Lo Mejor de Dos Mundos</h3>
+    <div>Los elementos con inline-block se alinean uno tras otro en la misma línea (como inline), pero también respetan propiedades como width, height, margin, y padding (como block). Esto es ideal para crear menús de navegación horizontales, tarjetas de producto en una tienda en línea, o cualquier diseño donde necesites que los elementos estén en fila, pero con control sobre su tamaño y espacio.
+    </div><hr>
+
+    <h3>Display: flex - Flexibilidad en la Distribución</h3>
+    <div>Cuando necesitas un poco más de control sobre cómo se alinean tus elementos, display: flex es tu mejor aliado. Piensa en flexbox como un organizador flexible para tu estantería. Puedes alinear tus cajas (elementos) de diferentes maneras, distribuir el espacio entre ellas, y asegurarte de que todo se vea bien, incluso cuando el tamaño de la pantalla cambia.En lecciones posteriores entraremos en detalle de flexbox y de grid.</div><HR>
+    
+    <h3>Display: grid - La Rejilla Maestra</h3>
+    <div> Imagina una cuadrícula que te permite colocar elementos en filas y columnas. Con grid, puedes crear diseños complejos en dos dimensiones: filas y columnas al mismo tiempo.
+    <br>display: grid es ideal cuando necesitas un control total sobre el diseño de tu página. Puedes definir cuántas columnas quieres, su tamaño, el espacio entre ellas, y exactamente dónde debe estar cada elemento.</div>
+
+    <h3>Display: none - Desapareciendo en Acción</h3>
+    <div>A veces, necesitas que un elemento simplemente… desaparezca. Tal vez es un mensaje de error que quieres ocultar después de un tiempo, o una sección de tu página que solo debería mostrarse en dispositivos móviles. Para estos casos, usamos display: none.
+    <br>Cuando aplicas display: none a un elemento, este desaparece por completo de la página. No ocupa espacio ni es visible para los usuarios. Es como si nunca hubiera existido.
+    <br>
+        .error-message {<br>
+        
+          display: none; /* Oculta el mensaje de error */
+        
+        }
+        <br>
+        Recuerda: display: none es diferente de visibility: hidden, que solo hace invisible el elemento, pero sigue ocupando su espacio en la página.</div><hr>
+    
+    
+    <h3>:hover</h3>
+    <p>En CSS, hay maneras de cambiar el estilo de un elemento cuando ocurre una acción específica. Estas formas especiales de aplicar estilos se llaman pseudoclases.<br>Las pseudoclases son palabras reservadas para aplicar estilos a los elementos cada que se realice una acción. Por ejemplo, cuando pasas el ratón sobre un botón o un enlace. La pseudo-clase más común y útil para esto es :hover.<br><i>La pseudo-clase :hover en CSS permite cambiar el estilo de un elemento cuando el usuario pasa el ratón por encima de él. Es una forma sencilla de hacer que tu página sea más interactiva y atractiva.</i>
+    </p>
+
+    <button>¡Pasa el ratón por aquí!</button>
+    <div class="container"></div>
+    <div class="ejemplo-box-sizing"></div>
+</body>
+</html>
