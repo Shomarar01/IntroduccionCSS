@@ -7,8 +7,8 @@
     color: red;
     border: 2px dashed rgb(201, 201, 14);
     width: 20%;
-    
 } 
+
 
 em{
   background-color: plum;
@@ -42,6 +42,16 @@ button {
 
   h2{
     text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  .prueba2{
+    color:blueviolet;
+    background-color:rgb(204, 242, 250);
+    font-size: 20px;
+    font-family: Candara;
+    text-align: right;
   }
 
   .container{
