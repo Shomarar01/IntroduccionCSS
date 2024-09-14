@@ -54,7 +54,7 @@ button {
     text-align: right;
   }
 
-  .container{
+  .container1{
     width: 200px;
     height: 150px;
     background-color: plum;
@@ -63,7 +63,7 @@ button {
     border:2px dotted;
   }
 
-  .ejemplo-box-sizing{
+  .ejemplo-box-sizing1{
     width: 200px;
     padding: 10px;
     border: 5px solid;
